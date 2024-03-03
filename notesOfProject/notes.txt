@@ -1,0 +1,16 @@
+-first of all we installed node version manager(but this is only one time process on the pc, dont have to do next time while making the same project)
+
+-then we install node version 18.7.0 for this project. Use this version using nvm use 18.7.0 --> the nvm mamager switches to this version of node
+
+- after this a file with extension .nvmrc was created where the version of the node we are using is specified. 
+-main.js is created and console.log('hello wordl')
+
+-now in the cli when we do node main.js --> it will output whateva is in the main.js file
+
+-npm init is done now
+-which creates the json file, we add "scripts": {
+    "start":"node main.js",
+
+now when we do npm start, the npm  wil run it. Preventing us to do node and the file name of the js 
+
+--we do not push the node_module folder into our github repo as it contains lot of subfolders . so when a developer clones the repo, all he gotta do is npm install , as the installation will install all the dependencies that are listes in the package.json file 
