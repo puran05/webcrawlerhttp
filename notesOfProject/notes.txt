@@ -14,3 +14,8 @@
 now when we do npm start, the npm  wil run it. Preventing us to do node and the file name of the js 
 
 --we do not push the node_module folder into our github repo as it contains lot of subfolders . so when a developer clones the repo, all he gotta do is npm install , as the installation will install all the dependencies that are listes in the package.json file 
+
+-different test factors are added in the crawl.test.js file and then it is tested via npm test
+-everything is pushed to github with the m normalize url
+
+-next we are going to add another function get url from html, we need new dependecy for this called jsdom. We install this using npm install jsdom
